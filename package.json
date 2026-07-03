@@ -1,0 +1,16 @@
+{
+  "name": "stryker-playwright-hello-world",
+  "version": "1.0.0",
+  "description": "Minimales Beispiel für Mutation Testing mit Stryker und Playwright E2E-Tests.",
+  "type": "module",
+  "scripts": {
+    "start": "vite --host 127.0.0.1",
+    "test:e2e": "playwright test",
+    "mutation": "stryker run"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.54.0",
+    "@stryker-mutator/core": "9.0.1",
+    "vite": "7.0.0"
+  }
+}

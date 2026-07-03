@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Stryker + Playwright Hello World</title>
+  </head>
+  <body>
+    <h1>Stryker + Playwright Hello World</h1>
+
+    <label for="amount">Betrag</label>
+    <input id="amount" type="number" />
+
+    <button id="btn">Berechnen</button>
+
+    <p>
+      Ergebnis:
+      <span id="result"></span>
+    </p>
+
+    <script type="module">
+      import { calculatePrice } from "../src/price.js";
+
+      document.querySelector("#btn").onclick = () => {
+        const value = Number(document.querySelector("#amount").value);
+        document.querySelector("#result").textContent = String(calculatePrice(value));
+      };
+    </script>
+  </body>
+</html>
