@@ -9,8 +9,8 @@
     "mutation": "stryker run"
   },
   "devDependencies": {
-    "@playwright/test": "1.54.0",
-    "@stryker-mutator/core": "9.0.1",
-    "vite": "7.0.0"
+    "@playwright/test": "^1.61.1",
+    "@stryker-mutator/core": "^9.6.1",
+    "vite": "^7.3.6"
   }
 }
