@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "start": "vite --host 127.0.0.1",
-    "test:e2e": "playwright test",
+    "test:e2e": "playwright test --workers=1",
     "mutation": "stryker run"
   },
   "devDependencies": {
