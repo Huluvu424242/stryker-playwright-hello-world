@@ -6,6 +6,11 @@ export default {
         command: "npx playwright test --workers=1"
     },
     reporters: ["html", "clear-text", "progress"],
+
+    htmlReporter: {
+        fileName: "docs/index.html"
+    },
+
     timeoutMS: 60_000,
     concurrency: 1,
     coverageAnalysis: "off",

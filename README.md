@@ -9,6 +9,8 @@ Die Beispielanwendung berechnet einen Rabatt:
 
 Stryker mutiert den JavaScript-Code in `src/price.js` und startet anschließend die Playwright-Tests.
 
+Der generierte Report ist hier abgelegt: https://huluvu424242.github.io/stryker-playwright-hello-world/index.html
+
 ## Projektstruktur
 
 ```text
